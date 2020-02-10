@@ -275,13 +275,13 @@ code {
   display: block;
   padding: 10px 0;
   width: 165px;
-  height: 60px;
-  background-image: url("images/logo-header.png");
+  height: 115px;
+  background-image: url("images/we.png");
   background-position: 0px 10px;
   background-repeat: no-repeat;
-  -webkit-background-size: 165px 60px;
-  -moz-background-size: 165px 60px;
-  background-size: 165px 60px;
+  -webkit-background-size: 165px 115px;
+  -moz-background-size: 165px 115px;
+  background-size: 165px 115px;
 }
 .main-body {
   margin-top: -60px;
@@ -378,7 +378,7 @@ code {
 #header-title .subtitle {
   font-size: 16px;
   font-style: italic;
-  line-height: 70px;
+  line-height: 125px;
   color: rgba(255,255,255,0.7);
   text-shadow: 0 1px rgba(0,0,0,0.2);
 }
@@ -1662,10 +1662,10 @@ a.article-title:hover {
 }
 #footer .logo {
   width: 132px;
-  height: 48px;
-  -webkit-background-size: 132px 48px;
-  -moz-background-size: 132px 48px;
-  background-size: 132px 48px;
+  height: 92px;
+  -webkit-background-size: 132px 92px;
+  -moz-background-size: 132px 92px;
+  background-size: 132px 92px;
 }
 i.icon {
   display: inline-block;
@@ -1846,46 +1846,43 @@ i.icon:before {
   height: 1.6em;
 }
 .highlight {
-  color: #a9b7c6;
-  background: #282b2e;
-}
-.highlight .code .number,
-.highlight .code .literal,
-.highlight .code .symbol,
-.highlight .code .bullet {
-  color: #6897bb;
-}
-.highlight .code .keyword,
-.highlight .code .selector-tag,
-.highlight .code .deletion {
-  color: #cc7832;
-}
-.highlight .code .variable,
-.highlight .code .template-variable,
-.highlight .code .link {
-  color: #629755;
+  color: #fff;
+  background: #222;
 }
 .highlight .code .comment,
 .highlight .code .quote {
-  color: #808080;
+  color: #777;
 }
-.highlight .code .meta {
-  color: #bbb529;
-}
-.highlight .code .string,
-.highlight .code .attribute,
-.highlight .code .addition {
-  color: #6a8759;
+.highlight .code .variable,
+.highlight .code .template-variable,
+.highlight .code .tag,
+.highlight .code .regexp,
+.highlight .code .meta,
+.highlight .code .number,
+.highlight .code .built_in,
+.highlight .code .builtin-name,
+.highlight .code .literal,
+.highlight .code .params,
+.highlight .code .symbol,
+.highlight .code .bullet,
+.highlight .code .link,
+.highlight .code .deletion {
+  color: #ab875d;
 }
 .highlight .code .section,
 .highlight .code .title,
-.highlight .code .type {
-  color: #ffc66d;
-}
 .highlight .code .name,
 .highlight .code .selector-id,
-.highlight .code .selector-class {
-  color: #e8bf6a;
+.highlight .code .selector-class,
+.highlight .code .type,
+.highlight .code .attribute {
+  color: #9b869b;
+}
+.highlight .code .string,
+.highlight .code .keyword,
+.highlight .code .selector-tag,
+.highlight .code .addition {
+  color: #8f9c6c;
 }
 .highlight .code .emphasis {
   font-style: italic;
